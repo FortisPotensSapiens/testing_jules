@@ -7,7 +7,7 @@ const ProfilePage: React.FC = () => {
   };
 
   return (
-    <Space direction="vertical" style={{ width: '100%', alignItems: 'center', justifyContent: 'center', height: 'calc(100vh - 150px)' }}>
+    <Space direction="vertical" style={{ width: '100%', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
       <h1>Привет! Тут описание вашего профиля.</h1>
       <Button type="primary" onClick={handleClick}>
         Нажми меня
