@@ -30,6 +30,11 @@ const AppLayout: React.FC = () => {
       key: '/profile',
       icon: <VideoCameraOutlined />, // Example icon
       label: <Link to="/profile">Мой профиль</Link>,
+      children: [{
+        key: '/vouchers',
+        icon: <UploadOutlined />, // Example icon
+        label: <Link to="/vouchers">Ваучеры</Link>,
+      }]
     },
     {
       key: '/vouchers',
